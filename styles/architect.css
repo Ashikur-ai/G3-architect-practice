@@ -154,17 +154,26 @@ header {
 
 /* small devices */
 @media screen and (max-width:576px) {
-    nav {
+    nav,
+    .team-container {
         flex-direction: column;
     }
 
+    
     .banner-img {
         width: 100%;
     }
 
+    
     .banner {
         width: 100%;
     }
+
+    .team-img {
+        grid-template-columns: 1fr;
+    }
+
+    
 }
 
 
@@ -173,5 +182,10 @@ header {
     .banner-img {
         width: 80%;
         margin: auto;
+    }
+
+
+    .team-container {
+        flex-direction: column;
     }
 }
