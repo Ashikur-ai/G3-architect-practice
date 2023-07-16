@@ -92,7 +92,11 @@ header {
     line-height: 26px; /* 162.5% */
 }
 
+.banner-img > img{
+    width: 100%;
+}
+
 .banner-img {
-    width: 80%;
+    width: 1440px;
     margin: 50px auto;
 }
