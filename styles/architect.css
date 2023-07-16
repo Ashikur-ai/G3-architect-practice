@@ -246,6 +246,24 @@ main {
 }
 
 
+/* sponsor section styles */
+
+.sponsor-info {
+    text-align: center;
+}
+
+
+.sponsor-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+
+
+
+
 /* small devices */
 @media screen and (max-width:576px) {
     nav,
