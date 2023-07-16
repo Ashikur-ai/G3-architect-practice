@@ -100,3 +100,28 @@ header {
     width: 1440px;
     margin: 50px auto;
 }
+
+
+
+/* small devices */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner {
+        width: 100%;
+    }
+}
+
+
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-img {
+        width: 100%;
+    }
+}
